@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Faw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Perpustakaan Faw</h1>
+        <nav>
+            <ul>
+                <li><a href="#collection">Koleksi Buku</a></li>
+                <li><a href="#location">Peta Lokasi</a></li>
+                <li><a href="#news">Berita/Kegiatan</a></li>
+                <li><a href="#registration">Pendaftaran Online</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="collection">
+        <h2>Koleksi Buku</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="img/book1.jpg" alt="Book 1"class="rounded-md">
+                <div class="ml-3 sm:ml-6"></div>
+                <h3>How Innovation Works</h3>
+                <p>Matt Ridley</p>
+            </div>
+            <div class="book">
+                <img src="img/book2.jpg" alt="Book 2"class="rounded-md">
+                <div class="ml-3 sm:ml-6"></div>
+                <h3>The Psychology of Money</h3>
+                <p>Morgan Housel                </p>
+            </div>
+            <!-- Tambahkan buku-buku lainnya di sini -->
+        </div>
+    </section>
+
+    <section id="location">
+        <h2>Peta Lokasi</h2>
+        <img src="img/library-map.jpg" alt="Ilustrasi Peta Lokasi" style="width: 100%;">
+    </section>
+
+    <section id="news">
+        <h2>Berita/Kegiatan</h2>
+        <div class="news-feed">
+            <!-- Tambahkan informasi berita atau kegiatan di sini -->
+            <p>Upcoming Event: Baca Bersama di Perpustakaan Faw!</p>
+        </div>
+        <div class="coming-soon">
+            <p>Coming Soon</p>
+        </div>
+    </section>    
+
+    <section id="registration">
+        <h2>Pendaftaran Online</h2>
+        <form id="registration-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Perpustakaan Faw. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
